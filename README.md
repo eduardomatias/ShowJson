@@ -1,17 +1,9 @@
-# F7 (Custom)
-* [Framework7](https://framework7.io/)
+# ShowJson - App - Cordova
 
-### Starting
-* [assets/custom/init.js](https://github.com/eduardomatias/F7/tree/master/assets/custom/init.js)
+## Json to List (in localstorage)
 
-### Pages
-* Create [pages](https://github.com/eduardomatias/F7/tree/master/pages)
-* Callback [assets/custom/my-pages.js](https://github.com/eduardomatias/F7/tree/master/assets/custom/my-pages.js)
-
-### Style
-* [assets/custom/my-app.css](https://github.com/eduardomatias/F7/tree/master/assets/custom/my-app.css)
-
-### Icon (font)
+### Dependences
+* [Framework7 1.6](https://framework7.io/)
 * [fontawesome](http://fontawesome.io/icons/)
 
 ## Author
