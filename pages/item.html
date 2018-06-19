@@ -1,0 +1,62 @@
+<div class="navbar">
+    <div class="navbar-inner">
+        <div class="left">
+			<a href="#" class="link icon-only open-panel">
+				<i class="icon icon-bars"></i>
+			</a>
+        </div>
+        <div class="center sliding">JSON</div>
+        <div class="right">
+            <a href="#" id="deleteItem" class="link icon-only display-none">
+                <i class="fa fa-lg fa-trash color-red"></i>
+            </a>
+        </div>
+    </div>
+</div>
+<div class="pages">
+    <div data-page="item" class="page">
+        <div class="page-content">
+            <div id="title-form" class="content-block-title"></div>
+            <form action="" method="get" accept-charset="utf-8" class="form-custom" id="form-item">
+                <div class="list-block no-hairlines-between no-hairlines">
+                    <ul>
+                        <li>
+                            <div class="item-content">
+								<div class="item-inner"> 
+									<div class="item-title label">
+										<div class="item-media"><i class="fa fa-star" aria-hidden="true"></i>NAME *</div>
+									</div>
+									<div class="item-input">
+										<input type="text" name="name" placeholder="" required>
+									</div>
+								</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="item-content">
+								<div class="item-inner"> 
+									<div class="item-title label">
+										<div class="item-media"><i class="fa fa-link" aria-hidden="true"></i>URL *</div>
+									</div>
+									<div class="item-input">
+										<input type="url" name="link" placeholder="" required>
+									</div>
+								</div>
+                            </div>
+                        </li>
+					</ul>
+                </div>
+                <div class="content-block">
+                    <div class="row">
+                        <div class="col-50">
+                            <a href="#" class="button button-fill color-red open-panel">CANCEL</a>
+                        </div>
+                        <div class="col-50">
+                            <a href="#" id="saveItem" class="button button-fill color-green">SAVE</a>
+                        </div>
+                    </div>
+                </div>
+            </form> 
+        </div>
+    </div>
+</div>
